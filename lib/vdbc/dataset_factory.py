@@ -268,6 +268,9 @@ class VDBC(object):
     def build_data_in_list_order(self, params, num, stype, dtype='GAUSSIAN'):
         """
         Build data in the order of the list.
+
+        Returns:
+            datas: 
         """
         video_img = self.__image_list[self.__folder_map[self._cur]]
         video_gt = self.__gt_info[self.__folder_map[self._cur]]
